@@ -1,0 +1,252 @@
+@import url(./normalize.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    background-color:rgba(248, 242, 231, 0.473);
+    padding: 5px 10px;
+    margin :0;
+    color:black;
+    
+    
+  }
+
+
+  a {
+    text-decoration: none;
+  }
+
+
+  #grid-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3fr);
+    grid-template-rows: repeat(4 auto);
+    grid-template-areas:
+    "header			header   	header"
+    "div        div       div"
+    "footer    footer      footer"
+    
+  
+}
+
+header{
+    grid-area: header;
+    padding: 20px;
+    background: black;
+    box-shadow: 0px 0px 70px orange;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+  }
+
+
+  nav a:hover {
+    background:orange;
+    
+  }
+
+  .header .logo {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+
+  .logo h1 {
+    color: white;
+    font-size: 1.875rem;
+  }
+
+
+    .photo{
+
+  height: 3em;
+  width: 3em;
+  margin-bottom: 1.rem;}
+
+  /*Fotos*/
+  
+ #flex-container{
+   margin-top: 50px;
+   margin-bottom: 200px;
+   display: flex;
+  justify-content: space-between;
+  background-color: rgb(247, 217, 184);
+  
+ }
+ #flex-container > div {
+ 
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+ 
+  div,p{
+    text-align: center;
+    font-size: 20px;
+    color:black;
+  }
+
+  div .fotos{
+    
+    
+    border-radius: 100%;
+    
+  
+    
+ }
+
+ .kris{
+  border-radius: 100%;
+  width: 70%;
+ }
+
+
+
+
+  h1.cris{
+  font-size: 20px;
+  }
+
+
+
+
+footer{
+  grid-area: footer;
+  background: #fff;
+  font-size: 1.25rem;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+}
+
+.pie{
+  color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+table {
+  max-width: 600px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+table tr td {
+  
+  border: 0;
+
+  padding: 0px;
+}
+.message {
+  text-align: center;
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+}
+
+.back{
+  background-color: black;
+}
+.ancho{
+  width: 100%;
+}
+
+.visto{
+  margin-bottom: -5px; 
+  margin-right:10px;
+  width: 20;
+          
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: bolder;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+h3{
+    color:black;
+    padding: 0px 0 0px 20px;
+    font-size: 22px;
+    margin:0;
+}
+.conditions {
+  padding: 20px;
+  font-size: 11px;
+  background-color: #f0f0f0;
+  text-align: justify;
+  line-height: 20px;
+  color: #76768c;
+}
+
+.confirm {
+  padding-bottom: 20px;
+  padding-top: 40px;
+  text-align: center;
+}
+.confirm div img{
+    width: 32px;
+    margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
